@@ -1,0 +1,99 @@
+.offer{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 105px;
+}
+
+.services-title{
+    font-size: var(--font-size-title);
+    font-weight: bold;
+}
+
+.service-row{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.service-row > div {  text-align: center;  }
+
+.service-block{
+    text-align: center;
+}
+
+.service-block > .service-block-wrapper > .caption{
+    font-size: var(--font-size-title);
+    font-weight: bold;
+}
+
+.service-block-wrapper{
+    background: var(--color-gray);
+}
+
+.service-block-wrapper:hover{
+    cursor: pointer;
+    background: none;
+}
+
+@media(min-width: 700px) and (max-width: 1400px){
+    .service-block-wrapper{
+        margin-left: 150px;
+        width: 360px;
+    }
+}
+
+.gray-list-wrapper{
+    height: 100%;
+    width: 100%;
+    background: var(--color-gray);
+}
+
+.list{  padding-top: 10px;  }
+
+.list > li {
+    text-transform: lowercase;
+    list-style-image: url(../../img/icons/gear.png);  }
+
+.list > li > span,
+.list > li > a > span{
+    position: relative;
+    top: -14px;
+}
+
+@media (min-width: 700px){
+    .text1,
+    .services-title,
+    .list,
+    .text2,
+    .text3 {
+        margin-right: 100px;
+        margin-left: 107px;
+    }
+
+    .text1,
+    .list-title,
+    .text2,
+    .text3,
+    .text3_title,
+    .services-title,
+    table{  margin-top: 20px;  }
+}
+
+.content{
+    height: 225px;
+    width: 350px;
+}
+
+.more:hover{
+    color: var(--color-white);
+}
+
+@media(min-width: 1400px){
+    .service-block-wrapper{
+        margin-left: 230px;
+        width: 430px;
+    }
+    .service-list-wrapper{
+        padding-left: 200px;
+    }
+}

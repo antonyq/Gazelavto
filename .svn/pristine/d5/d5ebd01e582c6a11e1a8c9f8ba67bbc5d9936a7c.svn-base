@@ -1,0 +1,450 @@
+:root{
+    --color-white: rgb(247,247,247);
+    --color-orange: rgb(244, 182, 94);
+    --color-black: rgb(49,49,49);
+    --color-gray: rgba(200,200,200, 0.5);
+
+    --font-family-base: "Open Sans" ,"Trebuchet MS", Arial, Helvetica, sans-serif;
+
+    --font-size-topic: 23px;
+    --font-size-title: 16px;
+    --font-size-text: 14px;
+}
+
+/* general */
+@font-face {
+    font-family: "Open Sans";
+    src: url(../fonts/Open%20Sans.ttf);
+}
+
+body {
+    background: var(--color-white);
+    font-family: var(--font-family-base);
+    line-height: 30px;
+    font-size: var(--font-size-text);
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+.container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.color-white{
+    color: var(--color-white);
+    background: none !important;
+}
+
+.title {
+    font-size: var(--font-size-title);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.topic-title{
+    font-size: var(--font-size-topic);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.more{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.vertical-line{
+    width: 3px;
+    background: var(--color-orange);
+    border-radius: 50%;
+}
+
+.wrapper{  margin: 0 auto;  }
+/* general end */
+
+
+
+
+/* header */
+.header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    font-family: var(--font-family);
+    background-color: var(--color-gray);
+}
+
+.header-top{
+    position: relative;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5) inset;
+    background: linear-gradient(to bottom, orange, var(--color-orange));
+}
+
+@media (min-width: 700px){
+    .header-top{  height: 150px;  }
+}
+
+.header-address{
+    padding-top: 2%;
+    padding-bottom: 1%;
+    height: 100%;
+    min-width: 205px;
+    font-size: var(--font-size-title);
+    font-weight: bold;
+    text-align: left;
+    display: table;
+}
+
+.header-address > span{
+    vertical-align: middle;
+    display: table-row;
+}
+
+.header-address > span:first-child{
+    font-size: var(--font-size-topic);
+    font-style: normal;
+    text-transform: uppercase;
+}
+@media (min-width: 1400px){
+    .logo-wrapper{  padding-left: 110px;  }
+}
+
+@media (min-width: 700px) and (max-width: 1400px){
+    .logo-wrapper{  padding-left: 10px;  }    
+}
+
+.logo-wrapper > img{
+    height: 100px;
+    margin-top: 20px;
+}
+
+@media (max-width: 700px) {
+    .logo-wrapper > img {
+        margin-left: 45px;
+        width: 300px;
+    }
+}
+
+.header-contacts{
+    padding-top: 1%;
+    height: 100%;
+    min-width: 200px;
+}
+
+.contacts-img{
+    position: absolute;
+    top: 25px;
+    right: 390px;
+    min-height: 50px;
+    min-width: 50px;
+    background: url("../../img/general/phone.png") no-repeat;
+}
+
+.contacts-phones{
+    text-align: right;
+    margin-top: 10px;
+    font-size: var(--font-size-topic);
+}
+
+@media (min-width: 700px){
+    .lang{
+        width: 100px;
+        float: right;
+    }
+}
+
+.lang{
+    margin-top: 6px;
+    margin-bottom: 10px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--color-black);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    background: var(--color-gray);
+    display: table;
+}
+
+.lang:hover{
+    color: var(--color-white);
+    box-shadow: 0 0 15px rgba(0,0,0,0.5) inset;
+}
+
+.lang > span {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+@media (min-width: 700px){
+    .prices, .services{  height: 50px;  }
+}
+
+@media (max-width: 700px){
+    .prices, .services{  height: 40px;  }
+}
+
+.prices, .services{
+    list-style: none;
+    margin: 0 auto;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: transparent;
+}
+
+.prices > a,
+.services > a,
+.services > span{
+    position: relative;
+    top: 10px;
+    margin-bottom: 10px;
+}
+.prices > a:hover,
+.services > a:hover{
+    color: var(--color-white);
+    background: var(--color-orange);
+}
+
+.services > li{  padding-top: 5px;  }
+
+.prices > li{
+    position: relative;
+    top: 20px;
+    left: -15px;
+    height: 40px;
+    text-align: center;
+    color: var(--color-black);
+    background: rgba(200, 200, 200, 0.85);
+    display: none;
+}
+
+.services > li
+{
+    position: relative;
+    top: 20px;
+    left: -15px;
+    height: 40px;
+    text-align: center;
+    color: var(--color-black);
+    background: rgba(200, 200, 200, 0.85);
+    display: none;
+}
+
+@media (max-width: 700px){
+    .prices > li,
+    .services > li{  top: 10px;  }
+}
+.prices > li{  width: 318px;  }
+.services > li{  width: 317px;  }
+
+.prices > li > a:hover,
+.services > li > a:hover{  color: rgb(300,150,0);  }
+
+.prices > li > a{
+    position: relative;
+    top: 5px;
+}
+
+.menu-item > li{  z-index: 100;  }
+
+@media (max-width: 500px) {
+    .header-address,
+    .contacts-phones{  text-align: center;  }
+}
+
+@media (min-width: 700px){
+    .header-bottom{
+        height: 50px;
+    }
+}
+
+@media (min-width: 1400px){
+    .header-bottom > .menu-item{  margin-left: 20px;  }
+}
+
+@media (min-width: 1300px) and (max-width: 1400px){
+    .header-bottom > .menu-item{  margin-left: 15px;  }
+}
+
+.header-bottom > a{
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.header-bottom > a > span,
+.header-bottom > ul > a > span{
+    font-size: var(--font-size-topic);
+}
+
+.header-bottom > .menu-item:hover{
+    color: white;
+    background: linear-gradient(to top, orange, var(--color-orange));
+}
+
+.header-bottom > .menu-item,
+.contacts-phones > ul > li,
+.footer-phones > ul > li {  display: inline;  }
+
+a{
+    text-decoration: none;
+    color: var(--color-black);
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: none;
+    color: var(--color-orange);
+}
+
+.a-wrapper-hover:hover{  color: var(--color-black) !important;  }
+/* header end */
+
+
+
+
+/* footer */
+.footer{
+    position: relative;
+    bottom: 0px;
+    margin-top: 15px;
+    padding-top: 10px;
+    line-height: 25px;
+    text-align: center;
+    background: linear-gradient(to top, var(--color-white), var(--color-gray));
+}
+
+.footer-phones > ul{  margin-left: -40px;  }
+
+@media (min-width: 1400px) {
+    .footer-top-wrapper{
+        width: 38%;
+        text-align: left;
+    }
+    .footer-services-wrapper{
+        width: 28%;
+        text-align: left;
+    }
+    .footer-bottom{
+        margin-top: 10px;
+    }
+    .left-bottom-wrapper{
+        width: 72%;
+        text-align: left;
+    }
+    .right-bottom-wrapper{
+        width: 100%;
+        text-align: center;
+    }
+    #footer-vertical-line{
+        position: absolute;
+        left: 50%;
+        height: 40px;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+    .footer-top-wrapper{
+        width: 38%;
+        text-align: left;
+    }
+    .footer-services-wrapper{
+        width: 28%;
+        text-align: left;
+    }
+    .footer-bottom{
+        margin-top: 10px;
+    }
+    .left-bottom-wrapper{
+        width: 60%;
+        text-align: left;
+    }
+    .right-bottom-wrapper{
+        width: 68%;
+        text-align: left;
+    }
+    #footer-vertical-line{
+        position: absolute;
+        left: 50%;
+        height: 40px;
+    }
+}
+/*footer end*/
+
+
+
+
+/*animations*/
+.fadein{
+    -o-animation: fadein 1s linear;
+    -ms-animation: fadein 1s linear;
+    -moz-animation: fadein 1s linear;
+    -webkit-animation: fadein 1s linear;
+    animation: fadein 1s linear;
+}
+@-o-keyframes fadein {
+    from {  opacity: 0; }
+    to {    opacity: 1; }
+}
+@-ms-keyframes fadein {
+    from {  opacity: 0; }
+    to {    opacity: 1; }
+}
+@-moz-keyframes fadein {
+    from {  opacity: 0; }
+    to {    opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from {  opacity: 0; }
+    to {    opacity: 1; }
+}
+@keyframes fadein {
+    from {  opacity: 0; }
+    to {    opacity: 1; }
+}
+
+.fadeFromTop{
+    -o-animation: fadeFromTop 0.5s ease;
+    -ms-animation: fadeFromTop 0.5s ease;
+    -moz-animation: fadeFromTop 0.5s ease;
+    -webkit-animation: fadeFromTop 0.5s ease;
+    animation: fadeFromTop 0.5s ease;
+}
+@-o-keyframes fadeFromTop {
+    from {  z-index: -1; margin-top: -50px; }
+    to {    margin-top: 0px; }
+}
+@-ms-keyframes fadeFromTop {
+    from {  z-index: -1; margin-top: -50px; }
+    to {    margin-top: 0px; }
+}
+@-moz-keyframes fadeFromTop {
+    from {  z-index: -1; margin-top: -50px; }
+    to {    margin-top: 0px; }
+}
+@-webkit-keyframes fadeFromTop {
+    from {  z-index: -1; margin-top: -50px; }
+    to {    margin-top: 0px; }
+}
+@keyframes fadeFromTop {
+    from {  z-index: -1; margin-top: -50px; }
+    to {    margin-top: 0px; }
+}
+
+/*animations end*/

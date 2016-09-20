@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texts>
+    <price_title>&lt;h1&gt;Цены на услуги СТО &lt;b&gt;"DPM Service"&lt;/b&gt;&lt;/h1&gt;</price_title>
+
+    <price_text>
+        Стоимость каждой работы индивидуальна и зависит от таких факторов, как:
+        сложность работы, стоимость деталей и расходных материалов, марка автомобиля.&lt;br&gt;
+        Все работы выполняются только после согласования стоимости работы с владельцем авто.
+        Дополнительно, без согласия заказчика, никаких работ не проводится.
+        Для уточнения стоимости работ по Вашему авто позвоните по контактным телефонам
+    </price_text>
+
+    <table_item_name>Услуга</table_item_name>
+    <table_item_value>Цена от (у.е.)</table_item_value>
+
+    <tables>
+        <table_lorries>
+            <table_name>Коммерческие авто</table_name>
+            <section>
+                <subtitle>Двигун</subtitle>
+                <record>
+                    <name>Заміна ремня агрегатов</name>
+                    <price>90.00</price>
+                </record>
+                <record>
+                    <name>Заміна натяжного роліка</name>
+                    <price>70.00</price>
+                </record>
+                <record>
+                    <name>Заміна масла</name>
+                    <price>100.00</price>
+                </record>
+                <record>
+                    <name>Заміна фільтра повітряного</name>
+                    <price>30.00</price>
+                </record>
+                <record>
+                    <name>Заміна фільтра паливного</name>
+                    <price>50.00</price>
+                </record>
+            </section>
+
+            <section>
+                <subtitle>Щеплення</subtitle>
+                <record>
+                    <name>Заміна щеплення</name>
+                    <price>800</price>
+                </record>
+                <record>
+                    <name>Зняти-поставити маховик</name>
+                    <price>80</price>
+                </record>
+            </section>
+
+            <section>
+                <subtitle>КПП</subtitle>
+                <record>
+                    <name>Зняти-поставити КПП</name>
+                    <price>600</price>
+                </record>
+                <record>
+                    <name>Заміна масла в КПП</name>
+                    <price>100</price>
+                </record>
+            </section>
+
+            <section>
+                <subtitle>Карданна передача</subtitle>
+                <record>
+                    <name>Зняти-поставити  вал карданий</name>
+                    <price>100.00</price>
+                </record>
+                <record>
+                    <name>Заміна Опори карданного вала</name>
+                    <price>120.00</price>
+                </record>
+            </section>
+
+            <section>
+                <subtitle>Мост задній</subtitle>
+                <record>
+                    <name>Заміна масла</name>
+                    <price>100</price>
+                </record>
+            </section>
+
+            <section>
+                <subtitle>Передня підвіска</subtitle>
+                <record>
+                    <name>Заміна шарової</name>
+                    <price>250.00</price>
+                </record>
+                <record>
+                    <name>Заміна рульової тяги</name>
+                    <price>100.00</price>
+                </record>
+                <record>
+                    <name>Заміна наконечника рульової тяги</name>
+                    <price>80.00</price>
+                </record>
+                <record>
+                    <name>Заміна ресори  передньої</name>
+                    <price>600.00</price>
+                </record>
+                <record>
+                    <name>Заміна ресори задньої</name>
+                    <price>300.00</price>
+                </record>
+                <record>
+                    <name>Заміна амортизатора </name>
+                    <price>250</price>
+                </record>
+                <record>
+                    <name>Заміна втулки стабілізатора</name>
+                    <price>50</price>
+                </record>
+            </section>
+
+            <section>
+                <subtitle>Колеса , ступиці</subtitle>
+                <record>
+                    <name>Регуліровка підшипників передньої ступиці</name>
+                    <price>80.00</price>
+                </record>
+                <record>
+                    <name>Заміна підшипників передньої ступиці</name>
+                    <price>200.00</price>
+                </record>
+                <record>
+                    <name>Заміна підшипників задньої ступиці</name>
+                    <price>350</price>
+                </record>
+            </section>
+
+            <section>
+                <subtitle>Система випуска газів</subtitle>
+                <record>
+                    <name>Заміна глушника</name>
+                    <price>150.00</price>
+                </record>
+                <record>
+                    <name>Заміна амортизатора глушника</name>
+                    <price>30.00</price>
+                </record>
+            </section>
+
+            <section>
+                <subtitle>Система охолодження</subtitle>
+                <record>
+                    <name>Заміна ОР</name>
+                    <price>100</price>
+                </record>
+                <record>
+                    <name>Заміна радіатора</name>
+                    <price>200.00</price>
+                </record>
+                <record>
+                    <name>Заміна патрубків</name>
+                    <price>150.0</price>
+                </record>
+                <record>
+                    <name>Перетяжка патрубків</name>
+                    <price>100.00</price>
+                </record>
+                <record>
+                    <name>Заміна термостата</name>
+                    <price>140.00</price>
+                </record>
+                <record>
+                    <name>Заміна помпи</name>
+                    <price>450.00</price>
+                </record>
+            </section>
+
+            <section>
+                <subtitle>Гальма</subtitle>
+                <record>
+                    <name>Заміна ПТК</name>
+                    <price>100.00</price>
+                </record>
+                <record>
+                    <name>Заміна ЗТК</name>
+                    <price>120.00</price>
+                </record>
+                <record>
+                    <name>Заміна диска гальма</name>
+                    <price>100.00</price>
+                </record>
+            </section>
+
+            <section>
+                <subtitle>Електрообладнання</subtitle>
+                <record>
+                    <name>Зняти-поставити генератор</name>
+                    <price>150.00</price>
+                </record>
+                <record>
+                    <name>Зняти-поставити стартер</name>
+                    <price>150.00</price>
+                </record>
+            </section>
+        </table_lorries>
+
+        <table_cars>
+            <table_name>Легковые авто</table_name>
+            <section>
+                <subtitle>Двигун</subtitle>
+                <record>
+                    <name>Компюторна діагностика</name>
+                    <price>100</price>
+                </record>
+                <record>
+                    <name>Заміна ГРМ</name>
+                    <price>250-600</price>
+                </record>
+                <record>
+                    <name>Заміна ремня генератора</name>
+                    <price>60-150</price>
+                </record>
+                <record>
+                    <name>Заміна подушок опори двигуна</name>
+                    <price>50-200</price>
+                </record>
+                <record>
+                    <name>Заміна масла</name>
+                    <price>60</price>
+                </record>
+                <record>
+                    <name>Заміна фільтра повітряного</name>
+                    <price>30</price>
+                </record>
+                <record>
+                    <name>Заміна фільтра паливного</name>
+                    <price>30</price>
+                </record>
+            </section>
+            <section>
+                <subtitle>Щеплення</subtitle>
+                <record>
+                    <name>Заміна щеплення</name>
+                    <price>450-1000</price>
+                </record>
+                <record>
+                    <name>Заміна ГЦС</name>
+                    <price>150</price>
+                </record>
+                <record>
+                    <name>Заміна РЦС</name>
+                    <price>100</price>
+                </record>
+                <record>
+                    <name>Зняти-поставити маховик</name>
+                    <price>50</price>
+                </record>
+                <record>
+                    <name>Заміна сальника к/в заднього</name>
+                    <price>30</price>
+                </record>
+                <record>
+                    <name>Заміна вінця</name>
+                    <price>70</price>
+                </record>
+            </section>
+
+            <section>
+                <subtitle>КПП</subtitle>
+                <record>
+                    <name>Зняти-поставити КПП</name>
+                    <price>400-800</price>
+                </record>
+                <record>
+                    <name>Ремонт КПП</name>
+                    <price>400-1500</price>
+                </record>
+                <record>
+                    <name>Сальники напіввісі заміна</name>
+                    <price>80-150</price>
+                </record>
+                <record>
+                    <name>Заміна масла </name>
+                    <price>60</price>
+                </record>
+                <record>
+                    <name>Долив масла</name>
+                    <price>40</price>
+                </record>
+            </section>
+
+            <section>
+                <subtitle>Колеса , ступиці</subtitle>
+                <record>
+                    <name>Регуліровка підшипників  ступиці</name>
+                    <price>30</price>
+                </record>
+                <record>
+                    <name>Заміна підшипників передньої ступиці</name>
+                    <price>125-180</price>
+                </record>
+                <record>
+                    <name>Заміна підшипників задньої ступиці</name>
+                    <price>125-180</price>
+                </record>
+            </section>
+
+            <section>
+                <subtitle>Підвіска</subtitle>
+                <record>
+                    <name>Заміна сайленблока ричага</name>
+                    <price>80-200</price>
+                </record>
+                <record>
+                    <name>Заміна амортизатора</name>
+                    <price>60</price>
+                </record>
+                <record>
+                    <name>Заміна шарової</name>
+                    <price>80-200</price>
+                </record>
+                <record>
+                    <name>Заміна стійки стабілізатора</name>
+                    <price>80-150</price>
+                </record>
+                <record>
+                    <name>Заміна втулки стабілізатора</name>
+                    <price>40-100</price>
+                </record>
+                <record>
+                    <name>Заміна стійки амортизатора</name>
+                    <price>80-150</price>
+                </record>
+            </section>
+
+            <section>
+                <subtitle>Система випуска газів</subtitle>
+                <record>
+                    <name>Заміна прийомної труби </name>
+                    <price>100</price>
+                </record>
+                <record>
+                    <name>Заміна резонатора</name>
+                    <price>100</price>
+                </record>
+                <record>
+                    <name>Заміна глушника</name>
+                    <price>100</price>
+                </record>
+                <record>
+                    <name>Заміна амортизатора глушника</name>
+                    <price>20</price>
+                </record>
+            </section>
+
+            <section>
+                <subtitle>Паливна система</subtitle>
+                <record>
+                    <name>Зняти-поставити модуль</name>
+                    <price>100</price>
+                </record>
+                <record>
+                    <name>Ремонт модуля</name>
+                    <price>60</price>
+                </record>
+                <record>
+                    <name>Заміна паливного фільтра інжектор</name>
+                    <price>30</price>
+                </record>
+                <record>
+                    <name>Чистка інжектора</name>
+                    <price>300</price>
+                </record>
+            </section>
+
+            <section>
+                <subtitle>Система охолодження</subtitle>
+                <record>
+                    <name>Заміна ОР</name>
+                    <price>80</price>
+                </record>
+                <record>
+                    <name>Заміна радіатора</name>
+                    <price>150</price>
+                </record>
+                <record>
+                    <name>Заміна помпи</name>
+                    <price>300</price>
+                </record>
+            </section>
+
+            <section>
+                <subtitle>Рульове керування</subtitle>
+                <record>
+                    <name>Заміна тяги</name>
+                    <price>100</price>
+                </record>
+                <record>
+                    <name>Заміна рульового  шарніру 1шт</name>
+                    <price>50-150</price>
+                </record>
+            </section>
+
+            <section>
+                <subtitle>Гальма</subtitle>
+                <record>
+                    <name>Заміна ПТК</name>
+                    <price>70</price>
+                </record>
+                <record>
+                    <name>Заміна ЗТК</name>
+                    <price>70-200</price>
+                </record>
+                <record>
+                    <name>Заміна диска ПТК</name>
+                    <price>90-150</price>
+                </record>
+                <record>
+                    <name>Заміна супорта</name>
+                    <price>150</price>
+                </record>
+                <record>
+                    <name>Заміна РТЦ</name>
+                    <price>100</price>
+                </record>
+                <record>
+                    <name>Заміна заднього  троса ручника</name>
+                    <price>100-200</price>
+                </record>
+                <record>
+                    <name>Заміна центрального троса ручника</name>
+                    <price>100</price>
+                </record>
+                <record>
+                    <name>Регулювання ручника</name>
+                    <price>40</price>
+                </record>
+            </section>
+
+            <section>
+                <subtitle>Електрообладнання</subtitle>
+                <record>
+                    <name>Зняти-поставити генератор</name>
+                    <price>150</price>
+                </record>
+                <record>
+                    <name>Зняти-поставити стартер</name>
+                    <price>150</price>
+                </record>
+                <record>
+                    <name>Заміна датчика температури ОР</name>
+                    <price>30</price>
+                </record>
+                <record>
+                    <name>Заміна датчика тиску масла</name>
+                    <price>30</price>
+                </record>
+                <record>
+                    <name>Заміна свічок</name>
+                    <price>40</price>
+                </record>
+            </section>
+        </table_cars>
+    </tables>
+</texts>
+
+
+

@@ -1,0 +1,133 @@
+.map-image {
+    height: 450px;
+    width: 690px;
+}
+
+@media (min-width: 700px){
+    .contacts-wrapper{
+        padding-top: 15px;
+        padding-left: 100px;
+        padding-right: 184px;
+        padding-bottom: 20px;
+    }
+
+    .texts{
+        padding-left: 130px;
+        font-size: var(--font-size-text);
+    }
+
+    .submit{
+        position: relative;
+        top: -40px;
+    }
+}
+
+@media (max-width: 700px) {
+    .map-image {
+        margin-top: 10px;
+        margin-left: 10px;
+        height: 270px;
+        width: 360px;
+    }
+
+    .submit{
+        position: relative;
+        top: 10px;
+    }
+}
+
+.timetable{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background: var(--color-white);
+}
+
+.timetable-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.timetable-additional{
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+    color: black;
+}
+
+.contact-form{
+    padding: 20px;
+    border: 2px solid var(--color-gray);
+}
+
+.contact-form > .row{  margin-top: 10px;  }
+
+.row > .description > span{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media (min-width: 700px) and (max-width: 1400px){
+    .map-image{
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .timetable, .contact-form{  width: 560px;  }
+    .timetable-time{  margin-left: 210px;  }
+    .row > input,
+    .row > textarea{  margin-top: 5px;  }
+    .row > textarea{
+        font-size: var(--font-size-text);
+        height: 100px;
+    }
+}
+
+@media (min-width: 1400px){
+    .map-image{
+        margin-top: 60px;
+        margin-left: 120px;
+        border-radius: 10px;
+        border: 2px solid gray;
+    }
+    .img-wrapper > a{
+        margin-top: 10px;
+        margin-left: 120px;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: orange;
+    }
+    .timetable-time{  margin-left: 275px;  }
+    .row > input,
+    .row > textarea{  margin-top: 5px;  }
+    .row > textarea{
+        font-size: var(--font-size-text);
+        height: 100px;
+    }
+}
+
+@media (max-width: 700px){
+    .timetable-time{  margin-left: 130px;  }
+}
+
+
+.submit {
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    color: var(--color-black);
+    background: var(--color-orange);
+    display: table;
+}
+
+.submit:hover{
+    color: var(--color-orange);
+    background: none;
+}
+
+.submit > span {
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    display: table-cell;
+}
+

@@ -1,0 +1,40 @@
+@media (min-width: 1000px) {
+    body{
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-image: url(../../img/general/notPorsche.png);
+        background-size: 100%;
+    }
+}
+
+.price-title{
+    margin: 0 auto;
+    margin-top: 20px;
+    text-transform: none !important;
+}
+
+.price-text{
+    text-align: center;
+    font-weight: bold;
+    margin:  0 auto;
+    margin-top: 20px;
+}
+
+@media (min-width: 700px){
+    table{
+        /*margin: 0 auto;*/
+        margin-left: 5%;
+        width: 870px !important;
+    }
+}
+
+caption{
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+td{  border-bottom: 1px solid var(--color-gray);  }
+
+.table > tbody > tr > td:nth-child(2){
+    font-weight: bold;
+}

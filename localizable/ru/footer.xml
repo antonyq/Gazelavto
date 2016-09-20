@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texts>
+    <contacts_title>Наши контакты</contacts_title>
+    <city>г. Киев</city>
+    <street>ул. Северо-Сырецкая, 3</street>
+    <map>Смотреть карту</map>
+    <phone1>+38 (050) 331-65-23</phone1>
+    <phone2>+38 (097) 427-50-49</phone2>
+    <phone3>+38 (044) 229-47-47</phone3>
+    <email>229-47-47@ukr.net</email>
+    <services>Услуги</services>
+    <lorries>Для коммерческих авто </lorries>
+    <cars>Для легковых авто</cars>
+    <jobs>Виды работ</jobs>
+    <jobs1>Капитальный ремонт двигателя</jobs1>
+    <jobs2>Ремонт ходовой</jobs2>
+    <jobs3>Диагностика двигателя</jobs3>
+    <jobs4>Ремонт КПП и редукторов</jobs4>
+    <jobs5>Ремонт электрооборудования</jobs5>
+    <jobs6>Другое</jobs6>
+    <copyright>Copyright &#169; 2010-2016 DPM Service Все права защищены</copyright>
+    <info>
+        СТО DPM Service, г.Киев, ст. метро Нивки (Виноградарь, Куреневка, Подол)
+        Техническое обслуживание, автосервис, ремонт коммерческих грузовиков и легковых авто
+    </info>
+</texts>

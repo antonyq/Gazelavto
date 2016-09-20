@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texts>
+    <meta_title>Контакти | "DPM Service" - ремонт та ТО автомобілів, Київ, Нивки, Виноградар, Куренівка, Поділ</meta_title>
+
+    <timetable_title>Години роботи DPM Service</timetable_title>
+    <timetable_time>
+        &lt;b&gt;Пн-Пт:&lt;/b&gt; 9:00 - 18:00 &lt;br&gt;
+        &lt;b&gt;Сб:&lt;/b&gt; по записи &lt;br&gt;
+        &lt;b&gt;Нд:&lt;/b&gt; вихідний &lt;br&gt;
+        &lt;b&gt;Обід:&lt;/b&gt; 13:00 - 14:00
+    </timetable_time>
+    <timetable_additional>
+        Запис на сервісне обслуговування автомобіля проводиться, через форму попереднього запису або по дзвінку в наш автосервіс:
+    </timetable_additional>
+
+    <name>Ваше ім'я: </name>
+    <mail>Ваша ел. адреса: </mail>
+    <phone>Контактний телефон: </phone>
+    <message>Повідомлення: </message>
+    <submit>Відправити</submit>
+    <look_map>Дивіться карту проїзду</look_map>
+</texts>

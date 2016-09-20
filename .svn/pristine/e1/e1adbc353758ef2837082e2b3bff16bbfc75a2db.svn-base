@@ -1,0 +1,75 @@
+.article-title,
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: var(--font-size-title);
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 > span{
+    font-size: 23px;
+}
+
+.article-text{
+    font-size: var(--font-size-text);
+}
+
+.article-text > span > h3{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+@media (min-width: 700px){
+    .article-text{
+        padding-left: 155px;
+        padding-right: 155px;
+        line-height: 30px;
+    }
+}
+
+@media (min-width: 1600px){
+    .autoImg{
+        position: absolute;
+        right: 190px;
+        height: 380px;
+        width: 700px;
+    }
+    #autoImg1{
+        top: 480px;
+        right: 280px;
+        width: 600px;
+        height: 480px;
+    }
+    #autoImg2{  
+        top: 650px;
+        display: none;
+    }
+    #autoImg3{
+        top: 410px;
+        right: 300px;
+        width: 800px;
+        height: 500px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .autoImg{  display: none;  }
+}
+@media (min-width: 1000px) {
+    .repair-special{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+
+    .repair-cars-special{
+        background-position-y: -150px;
+        background-image: url(../../img/services/porsche_opaque.png);
+    }
+
+    .repair-lorries-special{
+        background-position-y: 50px;
+        background-image: url(../../img/services/lorries2.png);
+    }
+}

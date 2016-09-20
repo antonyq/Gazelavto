@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="application/javascript">
+    window.onload = function () {
+        window.location.href = window.location.href.split("contacts.html")[0] + "php/pages/contacts.php";
+    }
+</script>
+</body>
+</html>

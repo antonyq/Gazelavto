@@ -1,0 +1,71 @@
+h2 {
+    margin-top: 5px;
+    margin-bottom: 27px;
+    text-align: center;
+}
+
+.jobs-title{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.jobs{
+    margin-left: 0 !important;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.cell{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: var(--color-gray);
+}
+
+.cell > ul > li{
+    list-style-image: url(../../img/icons/gear_20.png);
+    position: relative;
+    top: -5px;
+}
+
+.cell > ul > li > a {
+    position: relative;
+    top: -5px;
+}
+
+.slider2-title{
+    margin-top: 20px !important;
+    margin-bottom: 30px !important;
+}
+
+@media (min-width: 700px){
+    .cell > ul {  padding-left: 154px;  }
+    .jobs{  margin-top: 20px;  }
+    .text-header,
+    .text-footer{
+        margin-top: 20px;
+        margin-left: 145px;
+        margin-right: 150px;
+    }
+    .row > td{
+        padding-top: 20px;
+        padding-left: 134px;
+    }
+    .carousel-inner > .item > img {  margin: 0 auto;  }
+}
+
+@media (min-width: 1400px){
+    .jobs{  height: 595px;  }
+}
+
+@media (min-width: 700px) and (max-width: 1400px){
+    .jobs{  height: 620px;  }
+}
+
+@media (max-width: 700px){
+    .jobs{
+        margin-top: 20px;
+        height: 1820px;
+    }
+}

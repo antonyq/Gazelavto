@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texts>
+    <company_name>DPM Service</company_name>
+    <city>г. Киев</city>
+    <street>ул. Северо-Сырецкая, 3</street>
+    <menu_main>Главная</menu_main>
+    <menu_services>Тип авто</menu_services>
+    <menu_jobs>Виды работ</menu_jobs>
+    <menu_price>Цены</menu_price>
+    <menu_blog>Блог</menu_blog>
+    <menu_contacts>Контакты</menu_contacts>
+    <lorries>Коммерческие авто</lorries>
+    <cars>Легковые авто</cars>
+    <phone1>+38 (050) 331-65-23</phone1>
+    <phone2>+38 (097) 427-50-49</phone2>
+    <more>Подробнее</more>
+</texts>

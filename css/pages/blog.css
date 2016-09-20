@@ -1,0 +1,45 @@
+.articles{
+    margin-top: 20px;
+}
+
+.article{
+    padding-left: 40px;
+    border-top: 1px solid var(--color-gray);
+    border-bottom: 1px solid var(--color-gray);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.article-title{
+    margin-bottom: 10px;
+    font-size: var(--font-size-title);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.article-text{
+    height: 125px;
+    overflow: hidden;
+}
+
+.article-text-shadow{
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    background: linear-gradient(to top, var(--color-white), var(--color-gray));
+}
+
+.article > .article-text > img {
+    margin-right: 20px;
+    float: left;
+    height: 100px;
+    width: 110px;
+}
+
+.tags-area{
+    margin-top: 20px;
+    height: inherit;
+    color: black;
+    background: var(--color-orange);
+    display: none;
+}

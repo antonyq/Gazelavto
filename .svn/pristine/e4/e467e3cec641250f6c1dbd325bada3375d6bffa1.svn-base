@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texts>
+    <company_name>DPM Service</company_name>
+    <city>м. Київ</city>
+    <street>вул. Северо-Сирецька, 3</street>
+    <menu_main>Головна</menu_main>
+    <menu_services>Тип авто</menu_services>
+    <menu_jobs>Види робіт</menu_jobs>
+    <menu_price>Ціни</menu_price>
+    <menu_blog>Блог</menu_blog>
+    <menu_contacts>Контакти</menu_contacts>
+    <phone1>+38 (050) 331-65-23</phone1>
+    <phone2>+38 (097) 427-50-49</phone2>
+    <lorries>Комерційні авто</lorries>
+    <cars>Легкові авто</cars>
+</texts>

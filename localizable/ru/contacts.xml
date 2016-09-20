@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texts>
+    <meta_title>Контакты | "DPM Service" - ремонт и ТО автомобилей, Киев, Нивки, Виноградарь, Куреневка, Подол</meta_title>
+
+    <timetable_title>Часы работы DPM Service</timetable_title>
+    <timetable_time>
+        &lt;b&gt;Пн-Пт:&lt;/b&gt; 9:00 - 18:00 &lt;br&gt;
+        &lt;b&gt;Сб:&lt;/b&gt; по записи &lt;br&gt;
+        &lt;b&gt;Вс:&lt;/b&gt; выходной &lt;br&gt;
+        &lt;b&gt;Обед:&lt;/b&gt; 13:00 - 14:00
+    </timetable_time>
+    <timetable_additional>
+        Запись на сервисное обслуживание автомобиля производится, через форму предварительной записи или по звонку в наш автосервис:
+    </timetable_additional>
+    <name>Ваше имя: </name>
+    <mail>Ваш эл. адрес: </mail>
+    <phone>Контактный телефон: </phone>
+    <message>Сообщение: </message>
+    <submit>Отправить</submit>
+    <look_map>Смотрите карту проезда</look_map>
+</texts>
